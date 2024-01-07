@@ -15,7 +15,7 @@ class NetworkException implements Exception {
 }
 
 class ApiService {
-  static const _baseHost = 'estacionaudec.me';
+  static const _baseHost = 'PAGINAWEBAPI.com';
   static const _basePath = '/parkings/';
 
   Future<List<Parking>> fetchParkings() async {
