@@ -30,20 +30,28 @@ Antes de comenzar, necesitarás instalar algunas herramientas esenciales:
      ```
    - Reemplaza `URL_DEL_REPOSITORIO` con la URL de tu repositorio de GitHub.
 
-2. **Abrir el Proyecto en VSCode**:
+2. **Configurar la API Key de Google Maps**:
+   - Debes obtener una API Key de Google Maps y configurarla en el proyecto.
+   - Ubica el archivo donde debes colocar la API Key (normalmente en `android/app/src/main/AndroidManifest.xml`) y añade tu clave en el lugar correspondiente.
+
+3. **Configurar el Enlace de la API en `lib/api_service.dart`**:
+   - Navega hasta el archivo `lib/api_service.dart`.
+   - Modifica las variables o métodos necesarios para apuntar al enlace correcto de tu API donde la aplicación recoge los datos.
+
+4. **Abrir el Proyecto en VSCode**:
    - Abre la carpeta del proyecto clonado en VSCode.
 
-3. **Instalar Extensiones de Flutter y Dart en VSCode**:
+5. **Instalar Extensiones de Flutter y Dart en VSCode**:
    - En VSCode, ve a la sección de extensiones y busca "Flutter".
    - Instala las extensiones de Flutter y Dart.
 
-4. **Obtener Dependencias**:
+6. **Obtener Dependencias**:
    - En la terminal integrada de VSCode, dentro de la carpeta del proyecto, ejecuta:
      ```bash
      flutter pub get
      ```
 
-5. **Configurar un Emulador o Dispositivo Físico**:
+7. **Configurar un Emulador o Dispositivo Físico**:
    - Asegúrate de que tu emulador o dispositivo físico esté listo y funcionando.
 
 ## Generación del APK
@@ -68,5 +76,3 @@ Antes de comenzar, necesitarás instalar algunas herramientas esenciales:
 - Consulta la [documentación oficial de Flutter](https://flutter.dev/docs) para obtener más detalles y orientación.
 
 ---
-
-Si tienes preguntas o encuentras problemas durante la instalación o compilación, no dudes en buscar ayuda en la comunidad de Flutter o revisar los foros y documentación relacionados.
